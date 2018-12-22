@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+
+.center{
+	text-align:center!important;
+}
+
+.container:after,.container:before{
+	display:table;
+	clear:both;
+}
+
+.padding-64{
+	padding-top:64px!important;
+	padding-bottom:64px!important;
+}
+
+.responsive{
+	display:block;
+	overflow-x:auto;
+}
+
+.centered tr th,.centered tr td{
+	text-align:center;
+}
+
+.large{
+	font-size:18px!important;
+}
+
+.hover-green:hover{
+	color:#fff!important;
+	background-color:#4CAF50!important;
+}
+
+.hover-blue:hover{
+	color:#fff!important;
+	background-color:#2196F3!important;
+}
+
+.msgbtn{
+  
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 1.1rem;
+  width: 27%;
+   outline: 0;
+  display: inline-block;
+  
+  
+}
+
+button:hover{
+	opacity:0.9;
+	background-color: #000;
+    transition: all 0.5s ease;
+    color: white;
+	
+}
+  
+ 
+textarea.noscrollbars {
+  overflow: hidden;
+}
